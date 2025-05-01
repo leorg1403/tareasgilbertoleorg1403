@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#headerContainer {
+    margin: 20px 0;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+
+canvas {
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+#backButton {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#backButton:hover {
+    background-color: #444;
+}
